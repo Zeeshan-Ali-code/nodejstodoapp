@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
-import "./App.css"; // Neon-themed CSS
+import "./App.css"; 
 
 const App = () => {
   const [tasks, setTasks] = useState([]);
