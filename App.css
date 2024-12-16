@@ -1,0 +1,81 @@
+body {
+  background: #0d1117;
+  color: #c9d1d9;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+.neon-title {
+  font-size: 2.5rem;
+  color: #58a6ff;
+  text-shadow: 0 0 10px #58a6ff, 0 0 20px #58a6ff;
+}
+
+.input-container {
+  margin: 20px auto;
+}
+
+.neon-input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid #58a6ff;
+  background: transparent;
+  color: #c9d1d9;
+  border-radius: 5px;
+}
+
+.neon-button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #0d1117;
+  background: #58a6ff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.neon-button:hover {
+  background: #36c9ff;
+  box-shadow: 0 0 10px #36c9ff;
+}
+
+.users-container {
+  margin-top: 20px;
+}
+
+.users-item {
+  background: #161b22;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #58a6ff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.users-text {
+  font-size: 1rem;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.neon-button.delete {
+  background: #ff6b6b;
+}
+
+.neon-button.delete:hover {
+  background: #ff4c4c;
+  box-shadow: 0 0 10px #ff4c4c;
+}
