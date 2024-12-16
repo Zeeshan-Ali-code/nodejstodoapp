@@ -1,4 +1,3 @@
-// Import necessary libraries
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./App.css"; // Neon-themed CSS
@@ -9,9 +8,8 @@ const App = () => {
   const [editTask, setEditTask] = useState(null);
   const [editText, setEditText] = useState("");
 
-  const API_BASE = "http://localhost:1026/users"; // Backend URL
+  const API_BASE = "http://localhost:1026/users"; 
 
-  // Fetch tasks from the backend
   const fetchTasks = async () => {
     try {
       const response = await axios.get(API_BASE);
